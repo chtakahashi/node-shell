@@ -12,6 +12,9 @@ process.stdin.on("data", (data) => {
   }
   //process.stdout.write("You typed: " + cmd);
   //process.stdout.write("\nprompt > ");
-
+  if (cmd.slice(0,3) === 'cat') {
+    const catObject = require('./cat')
+    const arg = cmd.split(' ')[1]
+    catObject.cat(arg)
+  }
 })
-
