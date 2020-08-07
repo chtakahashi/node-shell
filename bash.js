@@ -6,8 +6,12 @@ process.stdin.on("data", (data) => {
     const pwdObject = require('./pwd')
     pwdObject.pwd()
   }
+  if (cmd === "ls"){
+    const lsObject = require('./ls')
+    lsObject.ls()
+  }
   //process.stdout.write("You typed: " + cmd);
-  process.stdout.write("\nprompt > ");
+  //process.stdout.write("\nprompt > ");
 
 })
 
