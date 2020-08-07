@@ -17,4 +17,10 @@ process.stdin.on("data", (data) => {
     const arg = cmd.split(' ')[1]
     catObject.cat(arg)
   }
+  if (cmd.slice(0,4) === 'curl') {
+    const curlObject = require('./curl')
+    const arg = cmd.split(' ')[1]
+    curlObject.curl(arg)
+  }
+
 })

@@ -1,0 +1,26 @@
+{
+  "name": "node-shell",
+  "version": "1.0.0",
+  "description": "node-shell workshop dependencies",
+  "main": "bash.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanghorace1/node-shell.git"
+  },
+  "keywords": [
+    "node-shell"
+  ],
+  "author": "Horace Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhanghorace1/node-shell/issues"
+  },
+  "homepage": "https://github.com/zhanghorace1/node-shell#readme"
+}
